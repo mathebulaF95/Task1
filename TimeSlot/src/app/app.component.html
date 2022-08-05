@@ -1,0 +1,11 @@
+<h5><u><i>Slider demo using angular material !!</i></u></h5>
+<mat-slider
+thumbLabel
+[displayWith]="formatLabel"
+tickInterval="10"
+step="10"
+min="9"
+max="17"
+name ="slidervalue" [(ngModel)] ="slidervalue"></mat-slider>
+<br/>
+<span> {{slidervalue}} HR/s</span>
